@@ -1,8 +1,10 @@
-#        EXERCÍCIO 5
+#-*- coding: utf-8 -*-
+
+#        EXERCÃCIO 5
 
 from time import sleep
 
-print("\nPrograma que calcula a média entre 3 notas, caso a média seja superior a 7, retornar a mensagem de aprovação\n")
+print("\nPrograma que calcula a mÃ©dia entre 3 notas, caso a mÃ©dia seja superior a 7, retornar a mensagem de aprovaÃ§Ã£o\n")
 
 sleep(1)
 
@@ -24,4 +26,4 @@ if media >= 7:
 else:
     print("\n\nReprovado")
 
-print(f"\nSua média é de {media}")
+print(f"\nSua mÃ©dia Ã© de {media}")

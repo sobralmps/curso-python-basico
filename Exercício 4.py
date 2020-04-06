@@ -1,9 +1,11 @@
-#        EXERCÍCIO 4
+#-*- coding: utf-8 -*-
+
+#        EXERCÃCIO 4
 
 from time import sleep
 from datetime import date
 
-print("\nPrograma que a partir do seu ano de nascimento retorna se você está apto ou não a tirar CNH\n")
+print("\nPrograma que a partir do seu ano de nascimento retorna se vocÃª estÃ¡ apto ou nÃ£o a tirar CNH\n")
 
 sleep(1)
 
@@ -18,9 +20,9 @@ sleep(0.5)
 anoatual = date.today().year
 
 if (anoatual-anonasc) >= 18:
-    print("\nVocê está apto para tirar a CNH")
+    print("\nVocÃª estÃ¡ apto para tirar a CNH")
 
 else:
-    print("\nVocê não é digno!")
+    print("\nVocÃª nÃ£o Ã© digno!")
 
-print(f"\nSua idade é de {anoatual-anonasc} anos")
+print(f"\nSua idade Ã© de {anoatual-anonasc} anos")

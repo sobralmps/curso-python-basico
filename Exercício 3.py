@@ -1,8 +1,10 @@
-#        EXERCÕCIO 3
+#-*- coding: utf-8 -*-
+
+#        EXERC√çCIO 3
 
 from time import sleep
 
-print("\nPrograma que retorna [Feminino], caso vocÍ digite F, e retorna [Masculino], caso vocÍ digite M\n")
+print("\nPrograma que retorna [Feminino], caso voc√™ digite F, e retorna [Masculino], caso voc√™ digite M\n")
 
 sleep(1)
 
@@ -17,4 +19,4 @@ if x== "M":
     print("\nMasculino")
 
 else:
-    print("\nO que foi digitado n„o È F ou M")
+    print("\nO que foi digitado n√£o √© F ou M")

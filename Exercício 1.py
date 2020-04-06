@@ -1,15 +1,17 @@
-#        EXERCÍCIO 1
+#-*- coding: utf-8 -*-
+
+#        EXERCÃCIO 1
 
 from time import sleep
 
-print("\nPrograma que printa Hello World, caso o primeiro número seja maior que o segundo.\n")
+print("\nPrograma que printa Hello World, caso o primeiro nÃºmero seja maior que o segundo.\n")
 
 x = "\nHello World!"
 
 sleep(1)
 
-a = int(input("Número A: "))
-b = int(input("Número B: "))
+a = int(input("NÃºmero A: "))
+b = int(input("NÃºmero B: "))
 
 sleep(0.5)
 
@@ -18,8 +20,8 @@ print("\nCalculando...")
 sleep(0.5)
 
 if a > b:
-    print(f"\nO número {a} é maior que o número{b}.")
+    print(f"\nO nÃºmero {a} Ã© maior que o nÃºmero{b}.")
     print(x)
 
 else:
-    print(f"\nO número {a} não é maior que o número {b}.")
+    print(f"\nO nÃºmero {a} nÃ£o Ã© maior que o nÃºmero {b}.")

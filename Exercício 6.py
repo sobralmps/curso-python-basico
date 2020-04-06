@@ -1,12 +1,14 @@
-#        EXERCÍCIO 6
+#-*- coding: utf-8 -*-
+
+#        EXERCÃCIO 6
 
 from time import sleep
 
-print("\nPrograma que verificar se um número inteiro é par ou ímpar\n")
+print("\nPrograma que verificar se um nÃºmero inteiro Ã© par ou Ã­mpar\n")
 
 sleep(1)
 
-num = int(input("Qual o número? "))
+num = int(input("Qual o nÃºmero? "))
 
 sleep(0.5)
 
@@ -17,7 +19,7 @@ sleep(0.5)
 result = num % 2
 
 if result == 0:
-    print("\nNúmero par")
+    print("\nNÃºmero par")
 
 else:
-    print("\nNúmero ímpar")
+    print("\nNÃºmero Ã­mpar")

@@ -1,12 +1,14 @@
-#        EXERCÍCIO 2
+#-*- coding: utf-8 -*-
+
+#        EXERCÃCIO 2
 
 from time import sleep
 
-print("\nPrograma que pede um número e retorna se ele é positivo \n")
+print("\nPrograma que pede um nÃºmero e retorna se ele Ã© positivo \n")
 
 sleep(1)
 
-x = int(input("Insira o número: "))
+x = int(input("Insira o nÃºmero: "))
 
 sleep(0.5)
 
@@ -15,10 +17,10 @@ print("\nCalculando...")
 sleep(0.5)
 
 if x > 0:
-    print(f"\nO número {x} é um número positivo.")
+    print(f"\nO nÃºmero {x} Ã© um nÃºmero positivo.")
 
 if x == 0:
-    print(f"\nO número {x} é neutro.")
+    print(f"\nO nÃºmero {x} Ã© neutro.")
 
 else:
-    print(f"\nO número {x} é negativo.")
+    print(f"\nO nÃºmero {x} Ã© negativo.")
